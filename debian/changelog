@@ -1,0 +1,20 @@
+emacs28 (28.1~1.git5a223c7f2e-kk3+20.04) focal; urgency=low
+
+   * Re-enable native compilation feature.
+
+ -- Kevin Kelley <kelleyk@kelleyk.net>  Mon, 16 May 2022 19:05:27 -0800
+
+emacs28 (28.1~1.git5a223c7f2e-kk2+20.04) focal; urgency=low
+
+   * Disable native compilation feature that is causing
+     https://github.com/kelleyk/ppa-emacs/issues/23.
+
+ -- Kevin Kelley <kelleyk@kelleyk.net>  Mon, 16 May 2022 19:05:27 -0800
+
+emacs28 (28.1~1.git5a223c7f2e-kk1+20.04) focal; urgency=low
+
+   ** SNAPSHOT build @deef5efafb70f4b171265b896505b92b6eef24e6 **
+
+   * Upstream release emacs-28.1.
+
+ -- Kevin Kelley <kelleyk@kelleyk.net>  Sat, 7 May 2022 10:55:13 -0800

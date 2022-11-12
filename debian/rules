@@ -155,7 +155,7 @@ auto_nox += --package=$(nox_pkg_name)
 auto_nox += --builddirectory=build/nox
 
 # Gtk/nativecomp config options
-confflags_nativecomp += $(confflags)
+confflags_nativecomp += $(confflags_gtk)
 ifeq ($(shell dpkg --compare-versions "$(DISTRIB_RELEASE)" ge "20.04" && echo "yes"),yes)
   # The native compilation feature requires `libgccjit`, and 20.04 LTS
   # (focal) is the first release where the default version of GCC

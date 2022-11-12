@@ -5,7 +5,7 @@ set -e
 # update-alternatives on things that collide with xemacs, other editors
 if [ "$1" != "upgrade" ]
 then
-    for alt in @ALTERNATIVES@
+    for alt in ctags28 ebrowse28 emacs28 emacs-28.228 emacsclient28 etags28
     do
         base=$(echo $alt | perl -pe 's/@SUFFIX@$//')
         update-alternatives --remove $base /usr/bin/$alt

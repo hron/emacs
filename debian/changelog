@@ -1,3 +1,10 @@
+emacs28 (28.2~1.lsp955ac73cb3-ag1+22.04) unstable; urgency=low
+
+  * Upstream release emacs-28.2
+  * Apply patch from lsp-mode team
+
+ -- Aleksei Gusev <aleksei.gusev@gmail.com>  Sat, 12 Nov 2022 13:50:41 +0200
+
 emacs28 (28.1~1.git5a223c7f2e-kk3+20.04) focal; urgency=low
 
    * Re-enable native compilation feature.

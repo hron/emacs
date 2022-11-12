@@ -67,7 +67,6 @@ Description: GNU Emacs editor (with GTK+ user interface)
 Package: emacs28-nox
 Architecture: any
 Depends: emacs28-common,
-         emacs28-el,
          ${misc:Depends},
          ${shlibs:Depends},
 Provides: editor, emacsen, info-browser, mail-reader, news-reader, emacs-nox, emacs
